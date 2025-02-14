@@ -4,10 +4,7 @@ const About = () => {
     return (
         <div className="about-container">
             <div className="about-image">
-                <img
-                    src="https://i0.wp.com/www.healthylifetips.co.uk/wp-content/uploads/2020/06/5ee1d3cec5f51.jpg?w=1000&ssl=1"
-                    alt="Delicious Recipes"
-                />
+            <img src="/recipe-image.jpg" alt="Delicious Recipes" />
                 <h1 className="about-title">About Recipe Book</h1>
             </div>
 
