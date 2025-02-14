@@ -1,0 +1,70 @@
+/* Navbar Styles */
+.navbar {
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.title-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease, text-shadow 0.3s ease, background-color 0.3s ease;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.title-link:hover {
+  color: #333;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+/* Navigation Links */
+.navbar .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+/* Search Bar */
+.navbar .search-bar {
+  width: 200px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin-left: 600px;
+}
+
+/* Theme toggle icon */
+.theme-toggle-icon {
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar.light .theme-toggle-icon:hover {
+  background-color: #ffffff;
+  color: #555;
+}
+
+.navbar.dark-theme .theme-toggle-icon:hover {
+  background-color: #444;
+  color: #ddd;
+}
